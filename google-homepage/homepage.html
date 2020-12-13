@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>google-homepage</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <style>
+        .navbar{
+            padding-top: 10px;
+        }
+        .sign-in{
+            background-color: #1a73e8;
+            color: white;
+            border: 5px solid transparent;
+            border-radius: 4px;
+        }
+        .sign-in :hover{
+            background-color: #4086e2;
+            color: white;
+        }        
+        .navright{
+            float: right;
+            color: rgba(0,0,0,0.87);
+            text-decoration: none;
+        }
+        .navright :hover{
+            color: gray;
+        }
+        .search {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+        #appicon{
+            height: 20px;
+            width: 20px;
+        }
+        .button{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-bottom: 550px;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            background-color: gray;
+        }
+        .footerleft{
+            float: left;
+        }
+        .footerright{
+            float: right;
+        }
+        
+        ul{
+            list-style: none;
+        }
+        li{
+            display: inline;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 5px;
+            vertical-align: middle;
+        }
+    </style>
+    <div class="navbar">
+        <div class="navright">
+            <ul >
+                <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+                <li><a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <li><a href="https://www.google.co.in/intl/en/about/products"><img id="appicon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAHlBMVEX///8AAAD09PTLy8uUlJSPj4/5+fnl5eXNzc3IyMgWJBrXAAABJklEQVR4nO3cQQ6CMBRFUSwtpfvfsAv4qD8EI6nnzF/0MhMpywIAAAAAAAAAcC+j1YQt7Hpm13rYbZmPa+PCwvbIKPHKpHbxm5bUrl1YWE8WrqnderKwKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChRcW7qndfoPCrWQcDL+6i89+AAAAAO/1sX4Wb0YsJbMbBz/y98wuntM4z3mLV4Xz32tTqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoX3K5z/f/z5n8UAAACA/zD/OxXmfy/G/PfaFCpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFDhPIXzn7cYrSbEZyN6ZtfiuYkt83EtXhkAAAAAAAAAgN96AuUrQOqYK1c6AAAAAElFTkSuQmCC" alt="app-icon"></a></li>
+                <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwj-kdS0jMjtAhXOZCsKHYzoAycQPAgI&ec=GAZAmgQ"><button class="sign-in">Sign In</button></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+        <input type="text" name="search" id="search">
+    </div>
+    <div class="button">
+        <button >Google Search</button><a href="https://www.google.com/doodles/"> <button>I'm Feeling Lucky</button></a>
+    </div>
+    <div class="footer">
+        <div class="footerleft">
+            <ul>
+                <li><a href="https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"> Business</a></li>
+                <li><a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1"> About</a></li>
+                <li><a href="https://google.com/search/howsearchworks/?fg=1"> How Search Works</a></li>
+            </ul>
+        </div>
+        <div class="footerright">
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-IN&fg=1"> Terms</a></li>
+                <li><a href="https://www.google.com/preferences?hl=en"> Settings</a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+
+    </main>
+</html>
